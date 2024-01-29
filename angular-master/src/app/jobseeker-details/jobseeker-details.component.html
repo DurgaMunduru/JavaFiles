@@ -1,0 +1,39 @@
+<app-navbar></app-navbar>
+<h1>Your Profile Details</h1>
+<form>
+<div>
+    <div>
+        <label>First Name</label>: <b>{{profile.firstname}}</b>
+    </div>
+    <div>
+        <label>Last Name</label>: <b>{{profile.lastname}}</b>
+    </div>
+    <div>
+        <label>Age</label>: <b>{{profile.age}}</b>
+    </div>
+    <div>
+        <label>Email Id</label>: <b>{{profile.email}}</b>
+    </div>
+    <div>
+        <label>Contact Number</label>: <b>{{profile.contactnumber}}</b>
+    </div>
+    <div>
+        <label>Location</label>: <b>{{profile.location}}</b>
+    </div>
+    <div>
+        <label>Qualification</label>: <b>{{profile.qualification}}</b>
+    </div>
+    <div>
+        <label>Skill 1</label>: <b>{{profile.skill1}}</b>
+    </div>
+    <div>
+        <label>Skill 2</label>: <b>{{profile.skill2}}</b>
+    </div>
+    <div>
+        <label>Experience</label>: <b>{{profile.experience}}</b>
+    </div>
+    <div>
+        <button (click)="updateJobseekerProfile(profile.firstname)" class="btn btn-primary" >Update</button>
+    </div>
+</div>
+</form>

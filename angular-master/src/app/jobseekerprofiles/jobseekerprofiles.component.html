@@ -1,0 +1,39 @@
+<div>
+    <h2>Profiles List</h2>
+</div>
+<table class="tabel table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Email Id</th>
+            <th>Contact Number</th>
+            <th>Location</th>
+            <th>Qualification</th>
+            <th>skill1</th>
+            <th>skill2</th>
+            <th>Experience</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr *ngFor="let profile of jobseekerprofiles">
+                <td>{{profile.firstname}}</td>
+                <td>{{profile.lastname}}</td>
+                <td>{{profile.age}}</td>
+                <td>{{profile.email}}</td>
+                <td>{{profile.contactnumber}}</td>
+                <td>{{profile.location}}</td>
+                <td>{{profile.qualification}}</td>
+                <td>{{profile.skill1}}</td>
+                <td>{{profile.skill2}}</td>
+                <td>{{profile.experience}}</td>
+
+                <td>
+                    <button (click)="updateJobseekerProfile(profile.firstname)" class="btn btn-primary" >Update</button>
+                    <button (click)="jobseekerdetails(profile.firstname)" class="btn btn-primary" style="margin-left: 10px;" >Veiw</button>
+                </td>
+            </tr>
+        </tbody>
+</table>

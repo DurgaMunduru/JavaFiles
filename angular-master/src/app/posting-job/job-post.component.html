@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<h3>Job Post</h3>
+<h4>Enter the details of the job</h4>
+<form #postJob="ngForm" (ngSubmit)="onClickSubmit(postJob.value)">
+    <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" class="form-control" id="title" name="title" ngModel placeholder="Title of the job">
+        
+        <label for="company">Company:</label>
+        <input type="text" class="form-control" id="company" name="company" ngModel placeholder="Company Name">
+        
+        <label for="des">Description:</label>
+        <textarea rows="4" cols="6" class="form-control" id="des" name="des" ngModel placeholder="Description">
+        </textarea>
+
+        <label for="tech1">1st Techical Skill required:</label>
+        <input type="text" class="form-control" id="tech1" name="tech1" ngModel placeholder="1st Technical Skill">
+
+        <label for="tech2">2nd Techical Skill required:</label>
+        <input type="text" class="form-control" id="tech2" name="tech2" ngModel placeholder="2nd Technical Skill">
+        <br>
+        <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+        <!-- <div class="session-test">{{role+" "+email}}</div> -->
+    </div>
+</form>

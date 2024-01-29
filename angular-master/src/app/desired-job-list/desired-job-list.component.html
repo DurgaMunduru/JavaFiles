@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<form #searchTech="ngForm" (ngSubmit)="onClickSubmit(searchTech.value)"> 
+    <input type="search" id="search" name="search"  class="form-control" ngModel placeholder="Enter technology to search..">
+    <br>
+    <button class="btn btn-primary" type="submit" id="submit" value="Submit">Search</button>
+</form>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Company</th>
+            <th>Description</th>
+            <th>Skill 1</th>
+            <th>Skill 2</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let jobpost of jobposts">
+            <td>{{jobpost.title}}</td>
+            <td>{{jobpost.company}}</td>
+            <td>{{jobpost.desc}}</td>
+            <td>{{jobpost.tech1}}</td>
+            <td>{{jobpost.tech2}}</td>
+            <td>
+                <button class="btn btn-primary" (click)="applyJobpost(jobpost.jid)">Apply</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+

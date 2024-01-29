@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<form #searchSkill="ngForm" (ngSubmit)="onClickSubmit(searchSkill.value)">
+    <input type="search" id="search" name="search" class="form-control" ngModel placeholder="Search skills to get desire candidates..">
+    <br><br>
+    <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+</form>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Experience</th>
+            <th>Skill1</th>
+            <th>Skill2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let profile of profiles">
+            <td>{{profile.firstname}}</td>
+            <td>{{profile.lastname}}</td>
+            <td>{{profile.experience}}</td>
+            <td>{{profile.skill1}}</td>
+            <td>{{profile.skill2}}</td>
+
+            <td>
+                <button class="btn btn-primary" (click)="getEmail(profile.email)">Contact</button>
+            </td>
+        </tr>
+    </tbody>
+
+</table>

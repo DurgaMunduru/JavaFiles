@@ -1,0 +1,889 @@
+!SESSION 2023-07-03 16:31:22.300 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-03 16:31:24.519
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-03 16:31:26.006
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-03 16:31:28.974
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-03 16:31:28.975
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-03 16:31:32.948
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:33:52.723
+!MESSAGE Classpath changed for project: register-login-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:33:58.160
+!MESSAGE Classpath changed for project: register-login-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:33:58.163
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:33:58.165
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:33:58.217
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:33:58.281
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-03 16:33:58.312
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10352
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:00.515
+!MESSAGE Classpath changed for project: register-login-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:13.143
+!MESSAGE Classpath changed for project: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:13.863
+!MESSAGE Classpath changed for project: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:13.871
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:14.652
+!MESSAGE Classpath changed for project: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:16.500
+!MESSAGE Classpath changed for project: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:16.757
+!MESSAGE Classpath changed for project: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:16.762
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:18.475
+!MESSAGE Classpath changed for project: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:20.591
+!MESSAGE Classpath changed for project: register-login-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:20.768
+!MESSAGE Classpath changed for project: register-login-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:20.976
+!MESSAGE Classpath changed for project: register-login-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:22.080
+!MESSAGE Classpath changed for project: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:22.252
+!MESSAGE Classpath changed for project: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:22.256
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:22.492
+!MESSAGE Classpath changed for project: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:23.964
+!MESSAGE Classpath changed for project: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:24.163
+!MESSAGE Classpath changed for project: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:24.166
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:24.428
+!MESSAGE Classpath changed for project: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:25.812
+!MESSAGE Classpath changed for project: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:26.055
+!MESSAGE Classpath changed for project: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:26.057
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:26.956
+!MESSAGE Classpath changed for project: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:28.200
+!MESSAGE Classpath changed for project: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:28.362
+!MESSAGE Classpath changed for project: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:28.365
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:34:28.676
+!MESSAGE Classpath changed for project: ShortListing-Service
+!SESSION 2023-07-03 18:34:51.646 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-03 18:34:53.515
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-03 18:34:55.785
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-03 18:34:59.925
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-03 18:34:59.925
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:05.410
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-03 18:35:05.460
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8396
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-03 18:35:07.065
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.315
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.318
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.323
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.326
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.334
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.338
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.342
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.346
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 18:35:07.350
+!MESSAGE Boot project ADDED: register-login-service
+!SESSION 2023-07-04 09:43:58.900 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-04 09:44:01.109
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-04 09:44:03.620
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-04 09:44:07.921
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-04 09:44:07.921
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:13.614
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-04 09:44:13.674
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5880
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-04 09:44:15.448
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.734
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.737
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.742
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.746
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.750
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.754
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.758
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.761
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 09:44:15.765
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.eclipse.jface 2 0 2023-07-04 10:18:54.308
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-04 10:18:54.308
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2023-07-04 15:42:34.846 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-04 15:42:36.453
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-04 15:42:38.801
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-04 15:42:42.483
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-04 15:42:42.483
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:52.275
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-04 15:42:52.412
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 19744
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-04 15:42:53.761
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.068
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.072
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.077
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.081
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.085
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.089
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.093
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.098
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 15:42:54.102
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-04 17:43:36.642
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-04 17:43:36.649
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-04 17:43:36.655
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-04 17:43:36.660
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-04 17:43:36.676
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-04 17:43:36.687
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2023-07-04 17:43:36.978
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-04 17:43:36.979
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2023-07-05 10:08:16.556 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-05 10:08:18.032
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-05 10:08:19.931
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-05 10:08:23.149
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-05 10:08:23.149
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:31.331
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-05 10:08:31.382
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10304
+
+!ENTRY org.eclipse.jface 2 0 2023-07-05 10:08:31.695
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-05 10:08:31.695
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-05 10:08:32.518
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.827
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.831
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.837
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.866
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.893
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.917
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.948
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:32.989
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-05 10:08:33.011
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-05 10:08:42.193
+!MESSAGE executing callback sts4.classpath.TSUfoAVp FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-05 10:08:42.197
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-07-24 13:58:55.315 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-24 13:58:56.780
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-07-24 13:58:58.908
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-07-24 13:59:02.375
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-24 13:59:02.376
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:06.544
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-24 13:59:06.921
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10464
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-24 13:59:07.043
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.439
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.446
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.454
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.488
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.521
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.577
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.583
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.598
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-24 13:59:07.625
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-24 13:59:17.659
+!MESSAGE executing callback sts4.classpath.UlEbVmqM FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-24 13:59:17.664
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-08-11 10:56:20.027 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-11 10:56:21.718
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-11 10:56:23.676
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-08-11 10:56:26.214
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-11 10:56:26.214
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:29.649
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-11 10:56:29.688
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 18388
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-11 10:56:30.935
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.105
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.111
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.117
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.122
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.128
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.134
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.139
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.145
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 10:56:31.150
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.eclipse.jface 2 0 2023-08-11 11:02:57.899
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-11 11:02:57.899
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2023-08-11 14:22:29.470 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-11 14:22:31.526
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-11 14:22:33.896
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-08-11 14:22:37.972
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-11 14:22:37.972
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:42.142
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-11 14:22:42.500
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12676
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-11 14:22:43.193
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.396
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.407
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.416
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.422
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.429
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.434
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.439
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.444
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-11 14:22:43.449
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.eclipse.jface 2 0 2023-08-11 15:37:44.614
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-11 15:37:44.614
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2023-08-29 10:53:49.892 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-29 10:53:51.336
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-08-29 10:53:53.197
+!MESSAGE Logback config file: C:\Users\mdurgaprasa3\OneDrive - DXC Production\Desktop\Full-Project-master\Backend Main\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-08-29 10:53:56.070
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-29 10:53:56.070
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:03.179
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-29 10:54:03.874
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mdurgaprasa3'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.199
+!MESSAGE Boot project ADDED: JobPost-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.205
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.211
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.242
+!MESSAGE Boot project ADDED: JobSearchAndApply-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.268
+!MESSAGE Boot project ADDED: JobSeekerProfile-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.292
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.318
+!MESSAGE Boot project ADDED: ShortListing-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.341
+!MESSAGE Boot project ADDED: apigateway-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-29 10:54:04.364
+!MESSAGE Boot project ADDED: register-login-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 10:54:04.956
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3308

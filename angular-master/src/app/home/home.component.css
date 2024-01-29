@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+box-sizing:border-box;
+}
+
+.bg{
+    /* background-image: url("pexels-photo-238118_copy1.jpeg"); */
+    background-image: url("https://www.imarc.com/writable/images/thought-hero-images/pexels-photo-238118_copy1.jpeg");
+    /* For some reason this is required to cover the entire background */
+    width: 100vw;
+    min-height: 100vh;
+    /* ----------------------------------- */
+    position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+}
+.text{
+    text-align: left;
+    margin-top: 250px;
+    padding: 30px;
+    
+}
+p{
+    text-shadow: 0cm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(73, 122, 220);
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+h1{
+    font-weight:500;
+    margin-left: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 250px;
+}
+body{
+    margin-top: -250px;
+    padding-top: -250px;
+}

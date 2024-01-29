@@ -1,0 +1,7 @@
+.example-spacer{
+    display: flex;
+    flex: auto;
+}
+.dropdown{
+    width: auto;
+}

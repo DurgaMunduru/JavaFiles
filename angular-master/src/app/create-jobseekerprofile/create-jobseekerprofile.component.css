@@ -1,0 +1,54 @@
+
+form{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background-color: aliceblue;
+}
+button{
+    margin:0 50%;position:relative;left:-50px;
+    background-color: rgb(0, 106, 199);
+}
+button:hover{
+    background-color: rgb(0, 34, 171);
+}
+label{
+    font-size: 18px;
+}
+b{
+    font-size: 18px;
+}
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3,h2{
+    color: rgb(14, 7, 114);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    color: rgb(197, 16, 83);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.createyourprofile{
+    background-image: url('https://cdn.wallpapersafari.com/51/27/78VlbA.jpg');
+    background-color: rgba(255,255,255,0.6);
+     background-blend-mode: screen;
+     
+     /* For some reason this is required to cover the entire background */
+     width: 100vw;
+     min-height: 100vh;
+     /* ----------------------------------- */
+
+     font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+}

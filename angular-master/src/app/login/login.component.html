@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <div class="login-page">
+      <div class="form">
+          <div class="app-name" style="text-decoration-line: underline; text-decoration-color:rgb(4, 80, 156)">
+            <h1>Welcome to FitMyJob</h1>
+          </div>
+          <div class="login-stuff">
+            <div class="login-header">
+              <h3 class="login-name" style="color: blueviolet; text-decoration-line: underline; text-decoration-color:blueviolet">LOGIN</h3>
+              <p>Please enter your credentials to login.</p>
+            </div>
+            <table>
+              <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" #email placeholder="Enter your email"/></td>
+              </tr>
+              <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" #password id="password" placeholder="Enter your password"/></td>
+              </tr>
+                <td><label for="role">Choose a role:</label></td>
+                <td>
+                  <select name="role" id="role" #role>
+                  <option value="Recruiter">Recruiter</option>
+                  <option value="JobSeeker">JobSeeker</option>
+                  </select>
+                </td>
+                <tr>
+                  <td colspan=2><button (click)="theValues(email.value,password.value,role.value)" id="login-button" class="button">Login</button></td>
+                </tr>
+              <tr>
+                <td colspan=2>Not registered? <a href="http://localhost:4200/register">Create an account</a></td>
+              </tr>
+            </table>
+            <div class="msg" style="color: red;">{{msg}}</div>
+          </div>
+        </div>
+      </div>
+      <!-- <h2>{{myEmail+" "+myPassword+" "+myRole}}</h2> -->
+</body>
+</html>

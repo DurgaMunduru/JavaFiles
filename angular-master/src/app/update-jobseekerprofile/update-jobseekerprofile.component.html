@@ -1,0 +1,67 @@
+<app-navbar></app-navbar>
+<form>
+<div class="row">
+    <div class="card col-md-6 offset-md-3">
+        <div class="row">
+            <h1 class="text-center">Update Your Profile</h1>
+            <hr/>
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" class="form-control" id="firstname" [(ngModel)]="profile.firstname" 
+                        name="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" id="lastname" [(ngModel)]="profile.lastname" 
+                        name="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="text" class="form-control" id="age" [(ngModel)]="profile.age" 
+                        name="age">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Id</label>
+                        <input type="text" class="form-control" id="email" [(ngModel)]="profile.email" placeholder="Email cannot be changed enter the same one...."
+                        name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Contact Number</label>
+                        <input type="text" class="form-control" id="contactnumber" [(ngModel)]="profile.contactnumber" 
+                        name="contactnumber">
+                    </div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <input type="text" class="form-control" id="location" [(ngModel)]="profile.location" 
+                        name="location">
+                    </div>
+                    <div class="form-group">
+                        <label>Qualification</label>
+                        <input type="text" class="form-control" id="qualification" [(ngModel)]="profile.qualification" 
+                        name="qualification">
+                    </div>
+                    <div class="form-group">
+                        <label>Skill1</label>
+                        <input type="text" class="form-control" id="skill1" [(ngModel)]="profile.skill1" 
+                        name="skill1">
+                    </div>
+                    <div class="form-group">
+                        <label>Skill2</label>
+                        <input type="text" class="form-control" id="skill2" [(ngModel)]="profile.skill2" 
+                        name="skill2">
+                    </div>
+                    <div class="form-group">
+                        <label>Experience</label>
+                        <input type="text" class="form-control" id="experience" [(ngModel)]="profile.experience" 
+                        name="experience">
+                    </div>
+                    <br/>
+                    <button class="btn btn-success" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</form>

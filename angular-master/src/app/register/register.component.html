@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="register-page">
+        <div class="form">
+            <div class="app-name" style="text-decoration-line: underline; text-decoration-color:rgb(4, 80, 156)">
+              <h1>Welcome to FitMyJob</h1>
+            </div>
+            <div class="register-stuff">
+              <div class="register-header">
+                <h3 class="register-name" style="color: blueviolet; text-decoration-line: underline; text-decoration-color:blueviolet">REGISTER</h3>
+                <p>Please enter your details.</p>
+              </div>
+              <table>
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" id="username" #username placeholder="Enter your username (EMAIL)" size="21"/></td>
+                  </tr>
+                <tr>
+                  <td><label for="email">Email:</label></td>
+                  <td><input type="text" id="email" #email placeholder="Enter your email"/></td>
+                </tr>
+                <tr>
+                  <td><label for="password">Password:</label></td>
+                  <td><input type="password" #password id="password" placeholder="Enter your password"/></td>
+                </tr>
+                  <td><label for="role">Choose a role:</label></td>
+                  <td>
+                    <select name="role" id="role" #role>
+                    <option value="Recruiter">Recruiter</option>
+                    <option value="JobSeeker">JobSeeker</option>
+                    </select>
+                  </td>
+                  <tr>
+                    <td colspan=2><button (click)="storeValues(username.value,email.value,password.value,role.value)" id="register-button" class="button">Register</button></td>
+                  </tr>
+              </table>
+              <div class="goto-login-page">Already have an account?<button class="gotoLogin-button" (click)=gotoLogin()>Click here</button></div>
+              <div class="msg" style="color: red;">{{msg}}</div>
+            </div>
+          </div>
+        </div>
+        <h2>{{myUsername+" "+myEmail+" "+myPassword+" "+myRole}}</h2>
+</body>
+</html>
